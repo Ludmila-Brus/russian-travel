@@ -1,0 +1,14 @@
+.place-item__paragraph {
+	margin: 0 0 26px 0;	
+	padding: 0;
+	color: #ffffff;
+
+	font-family: Inter;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 29px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+

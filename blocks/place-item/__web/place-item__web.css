@@ -1,0 +1,8 @@
+.place-item__web {
+	width: 456px;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+}	
+
+
