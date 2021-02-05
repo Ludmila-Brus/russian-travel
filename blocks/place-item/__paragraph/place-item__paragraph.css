@@ -11,4 +11,30 @@
 	letter-spacing: 0em;
 	text-align: left;
 }
-
+  
+  @media all and (max-width: 1024px) {
+	.place-item__paragraph {
+		margin: 0 0 25px 0;	
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 26px;
+	}
+  }  
+  
+  @media all and (max-width: 768px) {
+	.place-item__paragraph {
+		margin: 0 16px 25px 16px;	
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 26px;
+	}
+  }  
+  
+  @media all and (max-width: 425px) {
+	.place-item__paragraph {
+		margin: 0 16px 25px 16px;	
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 26px;
+	}
+  }

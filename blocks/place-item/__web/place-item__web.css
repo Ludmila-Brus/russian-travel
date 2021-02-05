@@ -5,4 +5,29 @@
 	flex-direction: column;
 }	
 
-
+ 
+@media all and (max-width: 1280px) {
+	.place-item__web {
+		width: 456px;
+	}
+  }  
+ 
+@media all and (max-width: 1024px) {
+	.place-item__web {
+		width: 352px;
+	}
+  }  
+  
+  @media all and (max-width: 768px) {
+	.place-item__web {
+		width: 288px;
+		margin: 0 auto;
+	}
+  }  
+  
+  @media all and (max-width: 425px) {
+	.place-item__web {
+		width: 288px;
+		margin: 0 auto;
+	}
+  }

@@ -3,3 +3,31 @@
 	width: 460px;
 }
 
+
+@media all and (max-width: 1280px) {
+	.place-item__image {
+		width: 440px;
+		height: 440px;
+	}
+  }  
+  
+  @media all and (max-width: 1024px) {
+	.place-item__image {
+		width: 340px;
+		height: 340px;
+	}
+  }  
+  
+  @media all and (max-width: 768px) {
+	.place-item__image {
+		width: 320px;
+		height: 320px;
+	}
+  }  
+  
+  @media all and (max-width: 425px) {
+	.place-item__image {
+		width: 320px;
+		height: 320px;
+	}
+  }

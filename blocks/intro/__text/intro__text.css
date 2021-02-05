@@ -14,3 +14,20 @@
 	
 }
 
+@media all and (max-width: 1024px) {
+	.intro__text {
+		width: 100%;
+	}
+  }  
+  
+  @media all and (max-width: 768px) {
+	.intro__text {
+		width: 100%;
+	}
+  }  
+  
+  @media all and (max-width: 425px) {
+	.intro__text {
+		width: 100%;
+	}
+  }

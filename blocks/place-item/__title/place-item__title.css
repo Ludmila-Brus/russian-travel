@@ -14,3 +14,41 @@
 
 }
 
+ 
+@media all and (max-width: 1280px) {
+	.place-item__title {
+		width: 440px;
+		font-size: 72px;
+		font-weight: 900;
+		line-height: 76px;
+	}
+  }  
+ 
+@media all and (max-width: 1024px) {
+	.place-item__title {
+		width: 340px;
+		font-size: 42px;
+		font-weight: 900;
+		line-height: 46px;
+	}
+  }  
+  
+  @media all and (max-width: 768px) {
+	.place-item__title {
+		width: 288px;
+		margin: 0 auto;
+		font-size: 32px;
+		font-weight: 900;
+		line-height: 35px;
+	}
+  }  
+  
+  @media all and (max-width: 425px) {
+	.place-item__title {
+		width: 288px;
+		margin: 0 auto;
+		font-size: 32px;
+		font-weight: 900;
+		line-height: 35px;
+	}
+  }

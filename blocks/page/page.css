@@ -2,39 +2,51 @@ body{
   background: #E5E5E5;
 }
 .page {
-  min-width: 1024px;
+  min-width: 1280px;
   max-width: 1280px;
   margin: 0 auto;
   background: #2A2C2F;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
+  
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility; 
 }
 
 /* div {
   border: 1px solid red;
 } */
-/*
-@media screen and (max-width: 1280px) {
+
+
+@media all and (max-width: 1280px) {
   .page{
-    min-width: 800px;
-    max-width: 1056px;
+    min-width: 1024px;
+    max-width: 1024px;
   }
 }  
-@media screen and (max-width: 1024px) {
+
+@media all and (max-width: 1024px) {
   .page{
-	  min-width: 568px;
-	  max-width: 800px;
+    min-width: 768px;
+    max-width: 768px;
   }
 }  
-@media screen and (max-width: 768px) {
+
+@media all and (max-width: 768px) {
   .page{
-	  min-width: 162px;
-	  max-width: 568px;
+    min-width: 425px;
+    max-width: 425px;
+  }
+}  
+
+@media all and (max-width: 425px) {
+  .page{
+    min-width: 320px;
+    max-width: 320px;
   }  
 }
-@media screen and (max-width: 320px) {
-  .page{
-	  min-width: 162px;
-	  max-width: 162px;
-  }
-}  
-*/
+
+

@@ -13,3 +13,25 @@
 	text-rendering: optimizeLegibility;
 }
 
+
+@media all and (max-width: 1024px) {
+	.intro__title {
+		width: 100%;
+	}
+  }  
+  
+  @media all and (max-width: 768px) {
+	.intro__title {
+		width: 100%;
+		Font-size: 32px;
+		line-height: 35px;
+	}
+  }  
+  
+  @media all and (max-width: 425px) {
+	.intro__title {
+		width: 100%;
+		Font-size: 32px;
+		line-height: 35px;
+	}
+  }

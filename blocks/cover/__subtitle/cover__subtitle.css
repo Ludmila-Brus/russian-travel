@@ -19,3 +19,37 @@
 
 }
 
+
+@media all and (max-width: 1280px) {
+	.cover__subtitle {
+		top: 379px;
+		left: 332px;
+	}
+  }  
+  
+  @media all and (max-width: 1024px) {
+	.cover__subtitle {
+		top: 299px;
+		left: 204px;		
+	}
+  }  
+  
+  @media all and (max-width: 768px) {
+	.cover__subtitle {
+		width: 288px;
+		top: 119px;
+		left: 16px;
+		font-size: 14px;
+		line-height: 16px;
+	}
+  }  
+  
+  @media all and (max-width: 425px) {
+	.cover__subtitle {
+		width: 288px;
+		top: 119px;
+		left: 16px;	
+		font-size: 14px;
+		line-height: 16px;		
+	}
+  }
