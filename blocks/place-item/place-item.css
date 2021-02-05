@@ -7,7 +7,7 @@
 }
 
 
-@media all and (max-width: 1280px) {
+@media all and (max-width: 1279px) {
 	.place-item {
 		margin-bottom: 80px;
 		grid-template-rows: repeat(2, minmax(min-content, max-content));
@@ -16,7 +16,7 @@
 	}
   }  
   
-  @media all and (max-width: 1024px) {
+  @media all and (max-width: 1023px) {
 	.place-item {
 		margin-bottom: 73px;
 		grid-template-rows: repeat(2, minmax(min-content, max-content));
@@ -25,7 +25,7 @@
 	}
   }  
   
-  @media all and (max-width: 768px) {
+  @media all and (max-width: 767px) {
 	.place-item {
 		margin-bottom: 50px;
 		grid-template-rows: repeat(4, minmax(min-content, max-content));
@@ -34,11 +34,3 @@
 	}
   }  
   
-  @media all and (max-width: 425px) {
-	.place-item {
-		margin-bottom: 50px;
-		grid-template-rows: repeat(4, minmax(min-content, max-content));
-		grid-template-columns: 320px;
-		gap: 32px;	
-	}
-  }

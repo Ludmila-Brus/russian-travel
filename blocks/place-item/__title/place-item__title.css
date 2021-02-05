@@ -2,9 +2,8 @@
 	margin: 0;
 	padding: 0;
 	color: #ffffff;
-	width: 460px;
 
-	font-family: inter;
+	font-family: inter, Arial, sans-serif;
 	font-size: 72px;
 	font-style: normal;
 	font-weight: 900;
@@ -15,40 +14,28 @@
 }
 
  
-@media all and (max-width: 1280px) {
+@media all and (max-width: 1279px) {
 	.place-item__title {
 		width: 440px;
 		font-size: 72px;
-		font-weight: 900;
 		line-height: 76px;
 	}
   }  
  
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1023px) {
 	.place-item__title {
 		width: 340px;
 		font-size: 42px;
-		font-weight: 900;
 		line-height: 46px;
 	}
   }  
   
-  @media all and (max-width: 768px) {
+  @media all and (max-width: 767px) {
 	.place-item__title {
 		width: 288px;
 		margin: 0 auto;
 		font-size: 32px;
-		font-weight: 900;
 		line-height: 35px;
 	}
   }  
   
-  @media all and (max-width: 425px) {
-	.place-item__title {
-		width: 288px;
-		margin: 0 auto;
-		font-size: 32px;
-		font-weight: 900;
-		line-height: 35px;
-	}
-  }

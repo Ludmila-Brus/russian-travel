@@ -3,7 +3,7 @@
 	padding: 0;
 	color: #AAAAAA;
 
-	font-family: inter;
+	font-family: inter, Arial, sans-serif;
 	font-size: 12px;
 	font-style: normal;
 	font-weight: 400;
@@ -12,26 +12,15 @@
 }
 
 
-@media all and (max-width: 1280px) {
+@media all and (max-width: 1279px) {
 	.place-item__website-heading {
 		line-height: 20px;
 	}
   }  
  
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1023px) {
 	.place-item__website-heading {
 		line-height: 12px;
 	}
   }  
   
-  @media all and (max-width: 768px) {
-	.place-item__website-heading {
-		line-height: 12px;
-	}
-  }  
-  
-  @media all and (max-width: 425px) {
-	.place-item__website-heading {
-		line-height: 12px;
-	}
-  }

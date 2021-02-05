@@ -4,7 +4,7 @@
 	color: #FFFFFF;
 
 	width: 690px;
-	font-family: inter;
+	font-family: inter, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 900;
 	font-size: 54px;
@@ -14,24 +14,16 @@
 }
 
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1023px) {
 	.intro__title {
 		width: 100%;
 	}
   }  
   
-  @media all and (max-width: 768px) {
+  @media all and (max-width: 767px) {
 	.intro__title {
-		width: 100%;
 		font-size: 32px;
 		line-height: 35px;
 	}
   }  
-  
-  @media all and (max-width: 425px) {
-	.intro__title {
-		width: 100%;
-		font-size: 32px;
-		line-height: 35px;
-	}
-  }
+ 
