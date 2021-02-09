@@ -1,5 +1,6 @@
 .footer {
-	width: 1184px;
+	max-width: 1184px;
+	width: calc(100% - 96px);
 	margin: 92px auto 0;
 	padding-bottom: 24px;
 	display: flex;
@@ -7,25 +8,31 @@
 }
 
 
-@media all and (max-width: 1279px) {
+/* @media all and (max-width: 1279px) {
 	.footer {
 		width: 928px;
 	}
-  }  
+  }   */
   
   @media all and (max-width: 1023px) {
 	.footer {
-		width: 720px;
+		width: calc(100% - 6.25%); /* 720px;*/
 		margin: 88px auto 0;		
 	}
   }  
   
   @media all and (max-width: 767px) {
 	.footer {
-		width: calc(100% - 32px);
+		/* width: calc(100% - 32px); */
 		margin: 64px 0 0 16px;
 		padding-bottom: 24px;
 		flex-direction: column;
 	}
   }  
   
+  /*320*/
+@media all and (max-width: 424px) {
+	.header {
+		width: 90%;
+	}
+}

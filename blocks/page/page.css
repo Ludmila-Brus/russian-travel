@@ -1,6 +1,6 @@
 .page {
-  min-width: 1280px;
-  max-width: 1280px;
+  width: 100%;
+  /*max-width: 1280px; */
   margin: 0 auto;
   background: #2A2C2F;
   font-family: 'Inter', Arial, sans-serif;
@@ -17,33 +17,34 @@
   border: 1px solid red;
 } */
 
-
-@media all and (max-width: 1279px) {
+/* 
+@media all and (min-width: 1024px) and (max-width: 1279) {
   .page{
-    min-width: 1024px;
+    min-width: 768px;
     max-width: 1024px;
   }
 }  
 
-@media all and (max-width: 1023px) {
+@media all and (min-width: 768px) and (max-width: 1023){
   .page{
-    min-width: 768px;
+    min-width: 425px;
     max-width: 768px;
   }
 }  
 
-@media all and (max-width: 767px) {
+@media all and (min-width: 425px) and (max-width: 767){
   .page{
-    min-width: 425px;
+    min-width: 320px;
     max-width: 425px;
   }
 }  
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 424px) {
   .page{
-    min-width: 320px;
+    min-width: 300px;
     max-width: 320px;
   }  
 }
 
 
+ */

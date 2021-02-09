@@ -21,7 +21,6 @@
   
   @media all and (max-width: 767px) {
 	.lead__caption {
-		width: 100%;
 		padding-left: 16px;
 	}
   }  

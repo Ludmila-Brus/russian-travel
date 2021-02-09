@@ -15,7 +15,7 @@
   @media all and (max-width: 767px) {
 	.place-item__web {
 		width: 288px;
-		margin: 0 auto;
+		margin: 0 16px;
 	}
   }  
   

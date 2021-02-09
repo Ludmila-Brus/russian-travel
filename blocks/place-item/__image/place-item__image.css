@@ -1,4 +1,8 @@
 .place-item__image {
+	width: 100%;
+}
+
+/* .place-item__image {
 	height: 460px;
 	width: 460px;
 }
@@ -23,5 +27,5 @@
 		width: 320px;
 		height: 320px;
 	}
-  }  
+  }   */
   
